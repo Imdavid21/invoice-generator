@@ -24,19 +24,19 @@ const Home = () => {
     <div className="bg-[#F5F5E6] flex justify-center items-center overflow-x-hidden">
       <div className="border-l border-r max-w-4xl w-full mx-auto border-dashed h-full flex justify-center flex-col border-[#E0E0E0]">
         
-        <div className="justify-center items-center h-full flex flex-col mt-10"> {/* Reduced top margin */}
-          <div className="border-t border-dashed border-[#E0E0E0] w-full mx-auto py-10 flex justify-center items-center relative">
+        <div className="justify-center items-center h-full flex flex-col mt-6"> {/* Reduced top margin further */}
+          <div className="w-full mx-auto py-6 flex justify-center items-center relative"> {/* Reduced top padding */}
             <Plus className="text-[#A5B4A2] group-hover:text-[#A5B4A2] w-7 h-7 absolute top-0 -translate-x-1/2 -translate-y-1/2 left-0" />
           </div>
           <div className="relative group">
-            <h1 className="font-semibold text-3xl md:text-7xl text-center w-full border-t border-b py-6 border-dashed text-balance px-4 text-[#333333] border-[#E0E0E0]">
+            <h1 className="font-semibold text-3xl md:text-7xl text-center w-full border-t border-b py-4 border-dashed text-balance px-4 text-[#333333] border-[#E0E0E0]"> {/* Reduced padding */}
               <span>No signup or ads. Just quick, clean </span>
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#A5B4A2] to-[#6E7D66]">
                 Invoices
               </span>
             </h1>
           </div>
-          <div className="pt-10 pb-11 flex gap-3 items-center mx-auto border-[#E0E0E0] border-b w-full justify-center border-dashed relative">
+          <div className="pt-8 pb-9 flex gap-3 items-center mx-auto border-[#E0E0E0] border-b w-full justify-center border-dashed relative"> {/* Reduced padding */}
             <Plus className="text-[#A5B4A2] group-hover:text-[#A5B4A2] w-7 h-7 absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2" />
             <Link
               href="/new"
@@ -46,7 +46,7 @@ const Home = () => {
             </Link>
           </div>
           <div className="group border-b border-dashed text-balance text-center w-full font-semibold border-[#E0E0E0]">
-            <div className="grid grid-cols-2 px-4 relative py-6 text-3xl md:text-7xl max-w-lg mx-auto">
+            <div className="grid grid-cols-2 px-4 relative py-4 text-3xl md:text-7xl max-w-lg mx-auto"> {/* Reduced padding */}
               <div className="flex flex-col border-r border-dashed border-[#E0E0E0]">
                 <div className="flex justify-center items-center gap-2">
                   <Users className="w-4 h-4" />
@@ -136,7 +136,7 @@ const Home = () => {
           </div>
         </div>
         <div className="px-5 py-11 flex justify-center items-center border-b border-dashed border-[#E0E0E0]">
-          <div className="flex justify-center rounded-2xl max-w-3xl border-dashed items-center px-4 py-10 w-full flex-col gap-4  bg-gradient-to-br from-[#E8EAD5] to-[#D2D6BA]">
+          <div className="flex justify-center rounded-2xl max-w-3xl border-dashed items-center px-4 py-10 w-full flex-col gap-4 bg-gradient-to-br from-[#E8EAD5] to-[#D2D6BA]">
             <p className="md:max-w-2xl text-center font-semibold text-xl text-[#333333] p-4 md:text-3xl text-balance">
               Stop wasting time and start getting paid what you deserve. Try our
               Free Invoice Tool.
