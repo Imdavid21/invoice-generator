@@ -58,10 +58,10 @@ const Home = () => {
               <div className="flex flex-col border-r border-dashed border-[#E0E0E0]">
                 <div className="flex justify-center items-center gap-2">
                   <Users className="w-4 h-4" />
-                  <span className="text-xs">Generate Invoices In</span>
+                  <span className="text-xs">Generate In</span>
                 </div>
                 <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#A5B4A2] to-[#6E7D66]">
-                  ~30
+                  30
                 </span>
                 <span className="text-xs">seconds</span>
               </div>
