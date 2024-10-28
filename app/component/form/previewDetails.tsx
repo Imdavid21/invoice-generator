@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState, useEffect } from "react";
 import { CompanyDetailsPreview } from "@/app/component/form/companyDetails/companyDetailsPreview";
 import { InvoiceDetailsPreview } from "@/app/component/form/invoiceDetails/invoiceDetailsPreview";
 import { InvoiceTermsPreview } from "@/app/component/form/invoiceTerms/InvoiceTermsPreview";
@@ -13,31 +13,27 @@ export const PreviewDetails = ({
   paymentDetails,
   invoiceTerms,
   onClick,
-}: {
-  yourDetails: YourDetails;
-  companyDetails: CompanyDetails;
-  invoiceDetails: InvoiceItemDetails;
-  paymentDetails: PaymentDetails;
-  invoiceTerms: InvoiceTerms;
-  onClick?: (step: string) => void;
 }) => {
   const [isDesktop, setIsDesktop] = useState(false);
 
   useEffect(() => {
-    const updateScreenSize = () => setIsDesktop(window.innerWidth >= 768);
-    updateScreenSize(); // Check initially
-    window.addEventListener("resize", updateScreenSize);
+    const updateMedia = () => {
+      setIsDesktop(window.innerWidth >= 768);
+    };
 
-    return () => window.removeEventListener("resize", updateScreenSize);
+    updateMedia(); // Check on initial render
+    window.addEventListener("resize", updateMedia);
+
+    return () => window.removeEventListener("resize", updateMedia);
   }, []);
 
-  if (!isDesktop) return null; // Don't render on mobile
+  if (!isDesktop) return null; // Only render on desktop
 
   return (
     <div className="overflow-x-auto">
       <div className="w-[595px] h-[842px] bg-white rounded-2xl border border-dashed justify-center items-center">
         <InvoiceTermsPreview {...invoiceTerms} onClick={onClick} />
-        <div className="border-b grid grid-cols-2 justify-between border-dashed">
+        <div className="border-b  grid grid-cols-2 justify-between border-dashed">
           <div
             className="py-4 px-10 border-r border-dashed cursor-pointer relative group"
             onClick={() => onClick && onClick("1")}
