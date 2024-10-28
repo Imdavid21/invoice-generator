@@ -113,7 +113,7 @@ export const InvoiceDetailsPreview: React.FC<
           {taxRate && (
             <div className="flex justify-between items-center mx-10 border-b border-dashed py-3">
               <p className="flex truncate text-xs font-medium text-gray-600">
-                Tax ({taxRate})%
+                Tax ({taxRate}%)
               </p>
               <p className="flex truncate text-xs font-medium text-gray-600">
                 {currencyDetails?.currencySymbol}
