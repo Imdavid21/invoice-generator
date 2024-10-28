@@ -11,7 +11,7 @@ export const YourDetailsForm = () => (
       variableName="yourEmail"
     />
     <p className="pb-10 pt-3 text-xs font-medium text-neutral-500">
-      We&apos;ll fill the billing details automatically if we find the your.
+      Please double-check your email.
     </p>
     <p className="pb-2 text-sm font-medium text-neutral-500">Billing details</p>
     <CustomTextInput
