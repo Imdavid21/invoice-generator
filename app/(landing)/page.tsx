@@ -38,7 +38,7 @@ const Home = () => {
           </div>
           <div className="relative group">
             <h1 className="font-semibold text-3xl md:text-7xl text-center w-full border-t border-b py-6 border-dashed text-balance px-4 text-[#333333] border-[#E0E0E0]">
-              <span className="">Zero commitment. No ads. Just quick, clean </span>
+              <span className="">No signup or ads. Just quick, clean </span>
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#A5B4A2] to-[#6E7D66]">
                 Invoices
               </span>
