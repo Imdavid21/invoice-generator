@@ -75,3 +75,19 @@ export const PreviewDetails = ({
     </div>
   );
 };
+
+// DemoPreview Component
+const DemoPreview = () => (
+  <div className="mx-auto w-full flex justify-center items-center">
+    <PreviewDetails
+      yourDetails={defaultValue.yourDetails}
+      companyDetails={defaultValue.companyDetails}
+      invoiceDetails={defaultValue.invoiceDetails}
+      paymentDetails={defaultValue.paymentDetails}
+      invoiceTerms={defaultValue.invoiceTerms}
+      onClick={() => {}} // Added the onClick function as an empty function
+    />
+  </div>
+);
+
+export default DemoPreview;
