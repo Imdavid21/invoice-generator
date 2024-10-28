@@ -42,7 +42,7 @@ export const NewInvoiceForm = () => {
                 </Link>
                 <div>
                   <p className="font-semibold">Free Invoice Tool</p>
-                  <p className="text-orange-500 text-sm">Made for you, by someone like you.</p>
+                  <p className="text-orange-500 text-sm">Made for you for effortless invoicing.</p>
                 </div>
               </div>
               <UserInputForm />
