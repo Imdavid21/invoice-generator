@@ -20,10 +20,10 @@ export const PreviewDetails = ({
   invoiceTerms: InvoiceTerms;
   onClick?: (step: string) => void;
 }) => (
-  <div className="overflow-x-auto">
+  <div className="overflow-x-auto hidden md:block">
     <div className="w-[595px] h-[842px] bg-white rounded-2xl border border-dashed justify-center items-center">
       <InvoiceTermsPreview {...invoiceTerms} onClick={onClick} />
-      <div className="border-b  grid grid-cols-2 justify-between border-dashed">
+      <div className="border-b grid grid-cols-2 justify-between border-dashed">
         <div
           className="py-4 px-10 border-r border-dashed cursor-pointer relative group"
           onClick={() => onClick && onClick("1")}
