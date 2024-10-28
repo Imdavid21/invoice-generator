@@ -157,7 +157,7 @@ export const InvoiceDetailsPdf: React.FC<InvoiceItemDetails> = ({
               }}
             >
               <Text style={{ ...pdfTypography.itemDescription, flex: 1 }}>
-                Tax ({taxRate})%
+                Tax ({taxRate}%)
               </Text>
               <Text
                 style={{
