@@ -23,22 +23,26 @@ import DemoPreview from "./components/demoPreview";
 const Home = () => {
   return (
     <div className="bg-[#F5F5E6] flex justify-center items-center overflow-x-hidden">
-      <div className="border-l border-r max-w-4xl w-full mx-auto border-dashed h-full flex justify-center flex-col border-[#E0E0E0]">
+      <div className="border-l border-r max-w-4xl w-full mx-auto border-dashed h-full flex justify-center flex-col border-[#E0E0E0] relative">
         
-        <div className="justify-center items-center h-full flex flex-col my-10">
+        {/* Adjusted Logo Section */}
+        <div className="absolute top-4 left-4">
+          <Image
+            src="/android-chrome-512x512.png"
+            width={25} // Reduced to 25% of original 100px size
+            height={25} // Reduced to 25% of original 100px size
+            className="rounded-lg"
+            alt="logo"
+          />
+        </div>
+
+        <div className="justify-center items-center h-full flex flex-col mt-16"> {/* Added top margin for spacing */}
           <div className="border-t border-dashed border-[#E0E0E0] w-full mx-auto py-10 flex justify-center items-center relative">
             <Plus className="text-[#A5B4A2] group-hover:text-[#A5B4A2] w-7 h-7 absolute top-0 -translate-x-1/2 -translate-y-1/2 left-0" />
-            <Image
-              src="/android-chrome-512x512.png"
-              width={100}
-              height={100}
-              className="rounded-lg"
-              alt="logo"
-            />
           </div>
           <div className="relative group">
             <h1 className="font-semibold text-3xl md:text-7xl text-center w-full border-t border-b py-6 border-dashed text-balance px-4 text-[#333333] border-[#E0E0E0]">
-              <span className="">No signup or ads. Just quick, clean </span>
+              <span>No signup or ads. Just quick, clean </span>
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#A5B4A2] to-[#6E7D66]">
                 Invoices
               </span>
