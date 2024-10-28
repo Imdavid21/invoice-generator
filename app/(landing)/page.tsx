@@ -39,7 +39,7 @@ const Home = () => {
           <div className="relative group">
             <h1 className="font-semibold text-3xl md:text-7xl text-center w-full border-t border-b py-6 border-dashed text-balance px-4 text-[#333333] border-[#E0E0E0]">
               <span className="">Get Paid Faster with Free </span>
-              <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#A5B4A2] to-[#333333]">
+              <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#A5B4A2] to-[#6E7D66]">
                 Invoice Generator
               </span>
             </h1>
@@ -48,7 +48,7 @@ const Home = () => {
             <Plus className="text-[#A5B4A2] group-hover:text-[#A5B4A2] w-7 h-7 absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2" />
             <Link
               href="/new"
-              className="inline-flex items-center justify-center whitespace-nowrap rounded-lg transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring font-medium disabled:pointer-events-none disabled:opacity-50 bg-[#A5B4A2] text-white hover:bg-[#333333] px-6 py-2 text-lg"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-lg transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring font-medium disabled:pointer-events-none disabled:opacity-50 bg-[#4A4A4A] text-white hover:bg-[#333333] px-6 py-2 text-lg"
             >
               Generate Invoice
             </Link>
@@ -60,7 +60,7 @@ const Home = () => {
                   <Users className="w-4 h-4" />
                   <span className="text-xs">Trusted by</span>
                 </div>
-                <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#A5B4A2] to-[#333333]">
+                <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#A5B4A2] to-[#6E7D66]">
                   200
                 </span>
                 <span className="text-xs">users</span>
@@ -70,7 +70,7 @@ const Home = () => {
                   <Download className="w-4 h-4" />
                   <span className="text-xs">Download</span>
                 </div>
-                <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#A5B4A2] to-[#333333]">
+                <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#A5B4A2] to-[#6E7D66]">
                   400
                 </span>
                 <span className="text-xs">Invoices</span>
@@ -88,16 +88,17 @@ const Home = () => {
           <Plus className="text-[#A5B4A2] group-hover:text-[#A5B4A2] w-7 h-7 absolute top-0 -translate-x-1/2 -translate-y-1/2 left-0" />
           <Plus className="text-[#A5B4A2] group-hover:text-[#A5B4A2] w-7 h-7 absolute bottom-0 right-0 translate-x-1/2 translate-y-1/2" />
           <div className="border-r border-b border-dashed p-7 border-[#E0E0E0] flex justify-center flex-col items-center">
-            <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-[#E0E0E0] bg-gradient-to-br from-[#F5F5E6] to-[#A5B4A2]">
+            <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-[#E0E0E0] bg-gradient-to-br from-[#E8EAD5] to-[#D2D6BA]">
               <Rocket />
             </p>
             <p className="font-bold text-xl">Fast & Easy</p>
             <p className="text-[#333333] mt-1 text-center">
-              Simply fill in the blanks and generate professional invoices in seconds
+              Simply fill in the blanks and generate professional invoices in
+              seconds
             </p>
           </div>
           <div className="border-b border-dashed flex justify-center flex-col items-center p-7 border-[#E0E0E0]">
-            <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-[#E0E0E0] bg-gradient-to-br from-[#F5F5E6] to-[#A5B4A2]">
+            <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-[#E0E0E0] bg-gradient-to-br from-[#E8EAD5] to-[#D2D6BA]">
               <Infinity />
             </p>
             <p className="font-bold text-xl">Free & Unlimited</p>
@@ -106,35 +107,72 @@ const Home = () => {
             </p>
           </div>
           <div className="border-r border-b border-dashed flex justify-center flex-col items-center p-7 border-[#E0E0E0]">
-            <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-[#E0E0E0] bg-gradient-to-br from-[#F5F5E6] to-[#A5B4A2]">
+            <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-[#E0E0E0] bg-gradient-to-br from-[#E8EAD5] to-[#D2D6BA]">
               <NotebookText />
             </p>
             <p className="font-bold text-xl">Beautiful Templates</p>
             <p className="text-[#333333] mt-1 text-center">
-              Choose from a variety of modern and customizable invoice templates.
+              Choose from a variety of modern and customizable invoice
+              templates.
             </p>
           </div>
           <div className="border-b border-[#E0E0E0] border-dashed flex justify-center flex-col items-center p-7">
-            <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-[#E0E0E0] bg-gradient-to-br from-[#F5F5E6] to-[#A5B4A2]">
+            <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-[#E0E0E0] bg-gradient-to-br from-[#E8EAD5] to-[#D2D6BA]">
               <Receipt />
             </p>
             <p className="font-bold text-xl">Get Paid Faster</p>
             <p className="text-[#333333] mt-1 text-center">
-              Send invoices electronically with secure payment links for faster client payments.
+              Send invoices electronically with secure payment links for faster
+              client payments.
+            </p>
+          </div>
+          <div className="border-r border-[#E0E0E0] border-b border-dashed flex justify-center flex-col items-center p-7">
+            <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-[#E0E0E0] bg-gradient-to-br from-[#E8EAD5] to-[#D2D6BA]">
+              <Hourglass />
+            </p>
+            <p className="font-bold text-xl">Save Time & Money</p>
+            <p className="text-[#333333] mt-1 text-center">
+              Ditch the spreadsheets and expensive invoicing software.
+            </p>
+          </div>
+          <div className="border-b border-dashed p-7 border-[#E0E0E0] flex justify-center flex-col items-center">
+            <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-[#E0E0E0] bg-gradient-to-br from-[#E8EAD5] to-[#D2D6BA]">
+              <CodeXml />
+            </p>
+            <p className="font-bold text-xl">Free & Open Source</p>
+            <p className="text-[#333333] mt-1 text-center">
+              Absolutely no cost, with the freedom to customize and adapt to
+              your needs.
             </p>
           </div>
         </div>
         <div className="px-5 py-11 flex justify-center items-center border-b border-dashed border-[#E0E0E0]">
-          <div className="flex justify-center rounded-2xl max-w-3xl border-dashed items-center px-4 py-10 w-full flex-col gap-4 bg-gradient-to-br from-[#F5F5E6] to-[#A5B4A2]">
+          <div className="flex justify-center rounded-2xl max-w-3xl border-dashed items-center px-4 py-10 w-full flex-col gap-4  bg-gradient-to-br from-[#E8EAD5] to-[#D2D6BA]">
             <p className="md:max-w-2xl text-center font-semibold text-xl text-[#333333] p-4 md:text-3xl text-balance">
-              Stop wasting time and start getting paid what you deserve. Try our Free Invoice
+              Stop wasting time and start getting paid what you deserve. Try our
+              Free Invoice
             </p>
             <Link
               href="/new"
-              className="inline-flex items-center justify-center whitespace-nowrap rounded-lg transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring font-medium disabled:pointer-events-none disabled:opacity-50 bg-[#A5B4A2] text-white hover:bg-[#333333] px-6 py-2 text-lg"
+              className="inline-flex items-center justify-center whitespace-nowrap rounded-lg transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring font-medium disabled:pointer-events-none disabled:opacity-50 bg-[#4A4A4A] text-white hover:bg-[#333333] px-6 py-2 text-lg"
             >
               Generate Today!
             </Link>
+          </div>
+        </div>
+        <div className="flex justify-center items-center border-b border-dashed mb-20 border-[#E0E0E0] py-10 px-4 gap-4">
+          <div className="border flex justify-center items-center w-10 h-10 border-dashed rounded-lg text-2xl border-[#E0E0E0]">
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/uddalak-das-crypto-nft-defi/"
+            >
+              <Linkedin />
+            </a>
+          </div>
+          <div className="border flex justify-center items-center w-10 h-10 border-dashed rounded-lg text-2xl border-[#E0E0E0]">
+            <a target="_blank" href="https://x.com/ninja_writer21">
+              <Twitter />
+            </a>
           </div>
         </div>
       </div>
