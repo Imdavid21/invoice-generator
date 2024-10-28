@@ -38,9 +38,9 @@ const Home = () => {
           </div>
           <div className="relative group">
             <h1 className="font-semibold text-3xl md:text-7xl text-center w-full border-t border-b py-6 border-dashed text-balance px-4 text-[#333333] border-[#E0E0E0]">
-              <span className="">Get Paid Faster with Free </span>
+              <span className="">No commitment. No ads. No sign-up. Just quick, clean </span>
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#A5B4A2] to-[#6E7D66]">
-                Invoice Generator
+                Invoices
               </span>
             </h1>
           </div>
@@ -91,10 +91,9 @@ const Home = () => {
             <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-[#E0E0E0] bg-gradient-to-br from-[#E8EAD5] to-[#D2D6BA]">
               <Rocket />
             </p>
-            <p className="font-bold text-xl">Fast & Easy</p>
+            <p className="font-bold text-xl">Instant & Effortless</p>
             <p className="text-[#333333] mt-1 text-center">
-              Simply fill in the blanks and generate professional invoices in
-              seconds
+              Generate invoices in under a minute – no sign-up required.
             </p>
           </div>
           <div className="border-b border-dashed flex justify-center flex-col items-center p-7 border-[#E0E0E0]">
@@ -110,10 +109,9 @@ const Home = () => {
             <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-[#E0E0E0] bg-gradient-to-br from-[#E8EAD5] to-[#D2D6BA]">
               <NotebookText />
             </p>
-            <p className="font-bold text-xl">Beautiful Templates</p>
+            <p className="font-bold text-xl">Polished & Professional</p>
             <p className="text-[#333333] mt-1 text-center">
-              Choose from a variety of modern and customizable invoice
-              templates.
+              Stand out with sleek, high-quality invoice designs.
             </p>
           </div>
           <div className="border-b border-[#E0E0E0] border-dashed flex justify-center flex-col items-center p-7">
@@ -139,10 +137,9 @@ const Home = () => {
             <p className="border flex justify-center items-center w-11 h-11 border-dashed rounded-lg text-2xl mb-5 border-[#E0E0E0] bg-gradient-to-br from-[#E8EAD5] to-[#D2D6BA]">
               <CodeXml />
             </p>
-            <p className="font-bold text-xl">Free & Open Source</p>
+            <p className="font-bold text-xl">Customizable & Open</p>
             <p className="text-[#333333] mt-1 text-center">
-              Absolutely no cost, with the freedom to customize and adapt to
-              your needs.
+              No sign-ups, no barriers – make it yours, on your terms.
             </p>
           </div>
         </div>
@@ -156,23 +153,8 @@ const Home = () => {
               href="/new"
               className="inline-flex items-center justify-center whitespace-nowrap rounded-lg transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring font-medium disabled:pointer-events-none disabled:opacity-50 bg-[#4A4A4A] text-white hover:bg-[#333333] px-6 py-2 text-lg"
             >
-              Generate Today!
+              Generate Invoice
             </Link>
-          </div>
-        </div>
-        <div className="flex justify-center items-center border-b border-dashed mb-20 border-[#E0E0E0] py-10 px-4 gap-4">
-          <div className="border flex justify-center items-center w-10 h-10 border-dashed rounded-lg text-2xl border-[#E0E0E0]">
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/uddalak-das-crypto-nft-defi/"
-            >
-              <Linkedin />
-            </a>
-          </div>
-          <div className="border flex justify-center items-center w-10 h-10 border-dashed rounded-lg text-2xl border-[#E0E0E0]">
-            <a target="_blank" href="https://x.com/ninja_writer21">
-              <Twitter />
-            </a>
           </div>
         </div>
       </div>
