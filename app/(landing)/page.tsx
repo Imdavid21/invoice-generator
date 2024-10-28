@@ -147,7 +147,7 @@ const Home = () => {
           <div className="flex justify-center rounded-2xl max-w-3xl border-dashed items-center px-4 py-10 w-full flex-col gap-4  bg-gradient-to-br from-[#E8EAD5] to-[#D2D6BA]">
             <p className="md:max-w-2xl text-center font-semibold text-xl text-[#333333] p-4 md:text-3xl text-balance">
               Stop wasting time and start getting paid what you deserve. Try our
-              Free Invoice
+              Free Invoice Tool.
             </p>
             <Link
               href="/new"
