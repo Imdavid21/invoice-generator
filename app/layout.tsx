@@ -10,17 +10,15 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_URL!),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_URL || "https://default-url.com"),
   alternates: {
     canonical: "/",
     languages: {
       "en-US": "/en-US",
     },
   },
-  title:
-    "Free Invoice Generator: Create & Send Professional Invoices in Minutes",
-  description:
-    "Get paid on time with our free invoice maker. Create professional invoices & get them to clients instantly.",
+  title: "Free Invoice Generator: Create & Send Professional Invoices in Minutes",
+  description: "Get paid on time with our free invoice maker...",
   keywords: [
     "invoice generator",
     "free invoice template",
@@ -30,11 +28,9 @@ export const metadata: Metadata = {
   ],
   robots: "index, follow",
   openGraph: {
-    title:
-      "Free Invoice Generator: Create & Send Professional Invoices in Minutes",
-    description:
-      "Get paid on time with our free invoice maker. Create professional invoices & get them to clients instantly.",
-    url: process.env.NEXT_PUBLIC_URL,
+    title: "Free Invoice Generator: Create & Send Professional Invoices in Minutes",
+    description: "Get paid on time with our free invoice maker...",
+    url: process.env.NEXT_PUBLIC_URL || "https://default-url.com",
     type: "website",
     images: "/og-image.jpeg",
     siteName: "Invoice Generator",
