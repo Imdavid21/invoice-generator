@@ -41,8 +41,8 @@ export const NewInvoiceForm = () => {
                   />
                 </Link>
                 <div>
-                  <p className="font-semibold">Free Invoice Tool</p>
-                  <p className="text-orange-500 text-sm">Made for you for effortless invoicing.</p>
+                  <p className="font-semibold">Go Back</p>
+                  <p className="text-orange-500 text-sm">Browse other products.</p>
                 </div>
               </div>
               <UserInputForm />
